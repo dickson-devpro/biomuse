@@ -1,0 +1,86 @@
+{
+  "model": "claude-sonnet-4-6",
+  "minWords": 2200,
+  "maxNewArticlesPerRun": 1,
+  "maxRefreshesPerRun": 1,
+  "refreshAfterDays": 4,
+  "author": {
+    "name": "D. Ruiz",
+    "slug": "d-ruiz",
+    "initials": "DR",
+    "jobTitle": "Editor",
+    "bio": "Writes about moving countries and the money side of it — residency routes, housing, banking, borrowing and cross-border tax. Guides are checked against current official sources and revised when rules change."
+  },
+  "clusters": [
+    {
+      "category": "Visas & Residency",
+      "categorySlug": "visas",
+      "keywords": [
+        "UK investor visa alternatives after the route closed",
+        "Germany permanent residency requirements for skilled workers",
+        "UK spouse visa requirements and when to use a solicitor",
+        "Netherlands work visa sponsorship for trades and construction",
+        "how to compare residency routes by cost and timeline",
+        "golden visa routes still open in Europe"
+      ]
+    },
+    {
+      "category": "Housing",
+      "categorySlug": "housing",
+      "keywords": [
+        "temporary housing in London costs and options",
+        "first time renters guide for new arrivals",
+        "renting with no local credit history what landlords accept",
+        "how immigrants can buy a house in the US",
+        "property insurance for first time buyers explained",
+        "short term rentals versus serviced apartments on arrival"
+      ]
+    },
+    {
+      "category": "Banking & Money",
+      "categorySlug": "money",
+      "keywords": [
+        "best brokerage accounts for non-resident aliens",
+        "private banks for high net worth new residents",
+        "how to build a credit file from nothing in a new country",
+        "opening a bank account as a new arrival",
+        "cheapest ways to move money between countries",
+        "multi currency accounts compared for expats"
+      ]
+    },
+    {
+      "category": "Mortgages",
+      "categorySlug": "mortgages",
+      "keywords": [
+        "buy to let mortgages for non-residents",
+        "first time buyer mortgage requirements explained",
+        "getting a mortgage with a thin credit file",
+        "mortgage insurance and PMI explained",
+        "deposit requirements by loan type"
+      ]
+    },
+    {
+      "category": "Tax",
+      "categorySlug": "tax",
+      "keywords": [
+        "filing US business taxes as a non-resident owner",
+        "Form 5472 and the penalty most owners miss",
+        "tax residency explained when you move mid-year",
+        "double taxation and how treaties actually work",
+        "reporting foreign accounts what you must declare"
+      ]
+    },
+    {
+      "category": "Work & Relocation",
+      "categorySlug": "work",
+      "keywords": [
+        "care and support roles that sponsor overseas workers",
+        "relocating to Melbourne on a tech salary",
+        "relocation packages what employers actually cover",
+        "cost of living comparison before you accept an offer",
+        "first ninety days after relocating a practical checklist"
+      ]
+    }
+  ],
+  "matrixOrder": "random"
+}

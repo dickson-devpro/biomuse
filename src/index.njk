@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: Home
+seoTitle: "Biomuse — Visas, Housing, Money and Tax for People Moving Countries"
+description: "Clear guides on residency routes, housing, banking, mortgages and cross-border tax for people relocating or already living abroad."
+permalink: /
+pageType: home
+---
+{% set posts = collections.articles %}
+<div class="page page--single">
+<main class="home">
+
+  <section class="intro">
+    <h1>{{ site.tagline }}</h1>
+    <p>Practical guides on residency routes, finding somewhere to live, opening accounts, borrowing without a local credit file, and the tax that follows you across borders.</p>
+  </section>
+
+  <div class="section-head"><h2>Latest</h2></div>
+  <ul class="post-list">
+    {% for post in posts %}{% if loop.index <= 20 %}
+    <li><a href="{{ post.url }}">
+      <span class="cat">{{ post.data.category }}</span>
+      <span class="t">{{ post.data.title }}</span>
+      <span class="d">{{ post.data.standfirst }}</span>
+    </a></li>
+    {% endif %}{% endfor %}
+  </ul>
+
+  <div class="section-head"><h2>Topics</h2></div>
+  <ul class="topic-list">
+    {% for cat in site.categories %}
+    {% set count = 0 %}{%- for p in posts -%}{% if p.data.categorySlug == cat.slug %}{% set count = count + 1 %}{% endif %}{%- endfor -%}
+    <li><a href="/{{ cat.slug }}/">
+      <span class="n">{{ cat.name }}</span>
+      <span class="c">{{ count }}</span>
+    </a></li>
+    {% endfor %}
+  </ul>
+
+</main>
+</div>

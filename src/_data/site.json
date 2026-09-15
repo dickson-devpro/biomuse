@@ -1,0 +1,113 @@
+{
+  "name": "Biomuse",
+  "url": "https://YOUR-DOMAIN.com",
+  "tagline": "Moving countries, and the money that comes with it",
+  "logoHtml": "Bio<em>muse</em>",
+  "logoUrl": "",
+  "year": "2026",
+  "categories": [
+    {
+      "name": "Visas & Residency",
+      "slug": "visas",
+      "description": "Residency and work routes worth understanding — what each requires, what it costs, and who actually qualifies."
+    },
+    {
+      "name": "Housing",
+      "slug": "housing",
+      "description": "Renting and buying in a new country, from short-term landings to a first mortgage without local credit history."
+    },
+    {
+      "name": "Banking & Money",
+      "slug": "money",
+      "description": "Accounts, transfers, private banking and building a credit file from nothing."
+    },
+    {
+      "name": "Mortgages",
+      "slug": "mortgages",
+      "description": "Borrowing across borders — buy-to-let for non-residents, first-time buyers, and lending with a thin file."
+    },
+    {
+      "name": "Tax",
+      "slug": "tax",
+      "description": "Filing and reporting obligations that follow you across borders, and the ones that catch people out."
+    },
+    {
+      "name": "Work & Relocation",
+      "slug": "work",
+      "description": "Roles that sponsor, what they pay, and the practical reality of landing in a new city."
+    }
+  ],
+  "footerLinks": [
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy/"
+    },
+    {
+      "name": "Terms & Conditions",
+      "url": "/terms/"
+    },
+    {
+      "name": "About Us",
+      "url": "/about/"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "disclosureText": "This guide is general information, not legal, immigration, tax or financial advice. Rules, fees, thresholds and eligibility change frequently and apply differently to each person. Verify current requirements with the relevant official source and take advice from a qualified professional before acting.",
+  "adsTxt": "# Add your ad network line, e.g.\n# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0",
+  "adBlocks": [
+    {
+      "name": "1. Analytics & site tags",
+      "enabled": false,
+      "position": "head",
+      "pages": "all",
+      "devices": "all",
+      "code": "<!-- Google tag, Search Console, Meta Pixel -->"
+    },
+    {
+      "name": "2. Ad network library",
+      "enabled": false,
+      "position": "head",
+      "pages": "article",
+      "devices": "all",
+      "code": "<!-- GPT loader + init, articles only -->"
+    },
+    {
+      "name": "3. Display — above title",
+      "enabled": false,
+      "position": "before-title",
+      "pages": "article",
+      "devices": "all",
+      "code": "<!-- top display unit -->"
+    },
+    {
+      "name": "4. Display — after title",
+      "enabled": false,
+      "position": "after-title",
+      "pages": "article",
+      "devices": "all",
+      "code": "<!-- renders flush under the headline -->"
+    },
+    {
+      "name": "5. Display — mid article",
+      "enabled": false,
+      "position": "after-paragraph",
+      "paragraph": 6,
+      "pages": "article",
+      "devices": "all",
+      "code": "<!-- after paragraph 6 -->"
+    },
+    {
+      "name": "6. Footer scripts",
+      "enabled": false,
+      "position": "footer",
+      "pages": "article",
+      "devices": "all",
+      "code": "<!-- anchor / rewarded gate -->"
+    }
+  ],
+  "googleSiteVerification": "",
+  "ogImage": "https://YOUR-DOMAIN.com/assets/og.png"
+}

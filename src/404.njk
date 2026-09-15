@@ -1,0 +1,33 @@
+---
+layout: base.njk
+permalink: /404.html
+title: Page not found
+description: That page doesn't exist. Browse the guides instead.
+noindex: true
+eleventyExcludeFromCollections: true
+---
+<div class="page page--single">
+<main class="home">
+  <section class="intro">
+    <div>
+      <span class="kicker">404</span>
+      <h1>That page doesn't exist</h1>
+      <p>The link may be out of date, or the page may have moved. Everything we publish is below.</p>
+    </div>
+  </section>
+
+  <div class="section-head"><h2>Browse by topic</h2></div>
+  <ul class="topic-list">
+    {% for cat in site.categories %}
+    <li><a href="/{{ cat.slug }}/"><span class="n">{{ cat.name }}</span></a></li>
+    {% endfor %}
+  </ul>
+
+  <div class="section-head"><h2>Latest guides</h2></div>
+  <ul class="post-list">
+    {% for post in collections.articles %}{% if loop.index <= 8 %}
+    <li><a href="{{ post.url }}"><span class="cat">{{ post.data.category }}</span><span class="t">{{ post.data.title }}</span></a></li>
+    {% endif %}{% endfor %}
+  </ul>
+</main>
+</div>
