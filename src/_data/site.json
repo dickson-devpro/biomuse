@@ -8,12 +8,12 @@
   "adBlocks": [
     {
       "name": "1. Analytics & site tags",
-      "enabled": false,
+      "enabled": true,
       "position": "head",
       "paragraph": null,
       "pages": "all",
       "devices": "all",
-      "code": "<!-- Google tag, Search Console, Meta Pixel -->"
+      "code": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-ZWP9Y1D2RT\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-ZWP9Y1D2RT');\n</script>"
     },
     {
       "name": "2. Ad network library",
