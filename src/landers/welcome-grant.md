@@ -389,10 +389,9 @@ fbq('track', 'PageView');
 <script>
 (function () {
   var links = [
-   "https://jobs.ledgerbloc.com/how-to-file-us-business-taxes-as-a-non-resident-owner-form-5472-1120",
-"https://jobs.ledgerbloc.com/how-to-verify-immigration-attorney-is-licensed",
-"https://jobs.ledgerbloc.com/uk-immigration-lawyers-london-what-to-expect",
-"https://jobs.ledgerbloc.com/how-to-get-us-employer-identification-number"
+"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
+"https://enter.biomuse.com.ng/germany-permanent-residency-requirements-skilled-workers",
+"https://enter.biomuse.com.ng/care-support-roles-that-sponsor-overseas-workers"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
