@@ -8,8 +8,11 @@ slug: grant/
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#0f172a">
+<meta name="theme-color" content="#f0f7ff">
 <title>Congratulations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -20,12 +23,18 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '948600004436271');
+fbq('init', '2470699430082187');
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=948600004436271&ev=PageView&noscript=1"
-/></noscript>
+<noscript>
+<img
+  height="1"
+  width="1"
+  style="display:none"
+  src="https://www.facebook.com/tr?id=2470699430082187&ev=PageView&noscript=1"
+  alt=""
+>
+</noscript>
 <!-- End Meta Pixel Code -->
 <style>
   * {
@@ -34,36 +43,36 @@ src="https://www.facebook.com/tr?id=948600004436271&ev=PageView&noscript=1"
     box-sizing: border-box;
   }
   :root {
-    --bg-start: #0f172a;
-    --bg-mid: #1e1b4b;
-    --bg-end: #312e81;
-    --card: #ffffff;
-    --accent: #8b5cf6;
-    --accent-dark: #7c3aed;
-    --accent-soft: #ede9fe;
-    --success: #22c55e;
-    --success-soft: #dcfce7;
+    --blue: #0ea5e9;
+    --blue-dark: #0284c7;
+    --blue-deep: #0369a1;
+    --blue-soft: #e0f2fe;
+    --teal: #14b8a6;
+    --teal-soft: #ccfbf1;
     --text: #0f172a;
     --muted: #64748b;
-    --border: #e2e8f0;
-    --disabled: #cbd5e1;
-    --alert-bg: #fff7ed;
-    --alert-border: #fed7aa;
-    --alert-text: #c2410c;
+    --border: #cbd5e1;
+    --disabled: #e2e8f0;
+    --alert: #ef4444;
+    --page: #f0f7ff;
+    --white: #ffffff;
   }
-  html, body {
+  html,
+  body {
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
   }
   body {
     min-height: 100dvh;
-    background: linear-gradient(165deg, var(--bg-start) 0%, var(--bg-mid) 45%, var(--bg-end) 100%);
+    background: linear-gradient(180deg, #e0f2fe 0%, #f0f7ff 40%, #f8fafc 100%);
     color: var(--text);
-    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
-  button, input {
+  button,
+  input {
     font: inherit;
   }
   button {
@@ -74,97 +83,52 @@ src="https://www.facebook.com/tr?id=948600004436271&ev=PageView&noscript=1"
   #page {
     min-height: 100dvh;
     width: 100%;
-    padding: 24px 20px;
+    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .card {
     width: 100%;
-    max-width: 420px;
-    background: var(--card);
-    border-radius: 32px;
-    padding: 40px 28px 32px;
-    box-shadow: 
-      0 25px 50px -12px rgba(0, 0, 0, 0.35),
-      0 0 0 1px rgba(255, 255, 255, 0.08);
-    position: relative;
-    overflow: hidden;
-  }
-  .card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 6px;
-    background: linear-gradient(90deg, #8b5cf6, #a78bfa, #c4b5fd);
-  }
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: var(--accent-soft);
-    color: var(--accent-dark);
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-    padding: 6px 12px;
-    border-radius: 999px;
-    margin: 0 auto 18px;
-  }
-  .badge-dot {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: var(--accent);
-    animation: pulse 1.6s ease-in-out infinite;
-  }
-  @keyframes pulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.5; transform: scale(0.85); }
-  }
-  .emoji-wrap {
-    text-align: center;
-    margin-bottom: 14px;
-  }
-  .emoji {
-    font-size: 52px;
-    line-height: 1;
-    filter: drop-shadow(0 4px 8px rgba(139, 92, 246, 0.25));
+    max-width: 760px;
+    background: var(--white);
+    border-radius: 42px;
+    padding: 54px 36px 45px;
+    box-shadow:
+      0 20px 50px -12px rgba(14, 165, 233, 0.12),
+      0 8px 20px -8px rgba(15, 23, 42, 0.06);
   }
   .headline {
+    color: var(--blue-deep);
     text-align: center;
-    font-size: clamp(28px, 6.5vw, 36px);
+    font-size: clamp(42px, 8vw, 76px);
+    line-height: 0.98;
     font-weight: 800;
-    line-height: 1.15;
-    letter-spacing: -0.6px;
-    background: linear-gradient(135deg, #7c3aed, #4f46e5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 8px;
+    letter-spacing: -2.8px;
+    margin-bottom: 42px;
   }
   .title {
-    text-align: center;
-    font-size: clamp(18px, 4.2vw, 22px);
-    font-weight: 700;
     color: var(--text);
-    margin-bottom: 6px;
+    text-align: center;
+    font-size: clamp(28px, 4.3vw, 39px);
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -1.1px;
+    margin-bottom: 18px;
   }
   .subtitle {
-    text-align: center;
     color: var(--muted);
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 28px;
+    text-align: center;
+    font-size: clamp(17px, 2.8vw, 26px);
+    line-height: 1.35;
+    font-weight: 500;
+    margin-bottom: 40px;
   }
   .options {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-bottom: 26px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 36px;
   }
   .option-wrap {
     position: relative;
@@ -177,125 +141,216 @@ src="https://www.facebook.com/tr?id=948600004436271&ev=PageView&noscript=1"
     pointer-events: none;
   }
   .option {
+    min-height: 150px;
+    border: 4px solid var(--border);
+    border-radius: 32px;
+    background: #fff;
     display: flex;
     align-items: center;
-    gap: 16px;
-    padding: 18px 20px;
-    border-radius: 18px;
-    border: 2px solid var(--border);
-    background: #fafafa;
-    transition: all 0.22s ease;
+    justify-content: center;
+    gap: 18px;
+    padding: 18px 14px;
+    transition:
+      border-color .16s ease,
+      background-color .16s ease,
+      box-shadow .16s ease,
+      transform .12s ease;
   }
   .option:active {
-    transform: scale(0.985);
+    transform: scale(.992);
   }
   .radio {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    border: 2.5px solid #94a3b8;
     position: relative;
-    flex-shrink: 0;
-    transition: border-color 0.2s ease;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    border: 4px solid #94a3b8;
+    border-radius: 50%;
+    background: #fff;
+    transition: border-color .15s ease;
   }
   .radio::after {
     content: "";
     position: absolute;
-    inset: 4px;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     background: transparent;
-    transition: background 0.15s ease;
-  }
-  .amount-block {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+    transition: background .15s ease;
   }
   .amount {
-    font-size: 20px;
+    font-size: clamp(24px, 4vw, 34px);
+    line-height: 1;
     font-weight: 800;
-    color: var(--text);
-    letter-spacing: -0.4px;
-  }
-  .amount-label {
-    font-size: 12px;
-    font-weight: 500;
-    color: var(--muted);
+    white-space: nowrap;
+    letter-spacing: -0.7px;
+    color: #0f172a;
   }
   .option-wrap input:checked + .option {
-    border-color: var(--accent);
-    background: var(--accent-soft);
-    box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.18);
+    border-color: var(--teal);
+    background: var(--teal-soft);
+    box-shadow: 0 0 0 5px rgba(20, 184, 166, 0.15);
   }
   .option-wrap input:checked + .option .radio {
-    border-color: var(--accent);
+    border-color: var(--teal);
   }
   .option-wrap input:checked + .option .radio::after {
-    background: var(--accent);
+    background: var(--teal);
   }
   .option-wrap input:checked + .option .amount {
-    color: var(--accent-dark);
+    color: #0f766e;
   }
   #continue-button {
     width: 100%;
-    height: 56px;
-    border: none;
-    border-radius: 16px;
+    min-height: 120px;
+    border: 0;
+    border-radius: 36px;
     background: var(--disabled);
     color: #94a3b8;
-    font-size: 16px;
+    font-size: clamp(24px, 4vw, 32px);
+    line-height: 1;
     font-weight: 800;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     cursor: not-allowed;
-    transition: all 0.22s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
+    transition:
+      background-color .16s ease,
+      color .16s ease,
+      box-shadow .16s ease,
+      transform .12s ease;
   }
   #continue-button:not(:disabled) {
-    background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+    background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
     color: #ffffff;
     cursor: pointer;
-    box-shadow: 0 10px 24px -6px rgba(139, 92, 246, 0.45);
+    box-shadow: 0 12px 28px -6px rgba(14, 165, 233, 0.4);
   }
   #continue-button:not(:disabled):hover {
-    filter: brightness(1.06);
-    transform: translateY(-1px);
+    background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue-deep) 100%);
   }
   #continue-button:not(:disabled):active {
-    transform: scale(0.98);
+    transform: scale(.992);
   }
   .alert {
-    margin-top: 22px;
-    padding: 13px 14px;
-    background: var(--alert-bg);
-    border: 1px solid var(--alert-border);
-    border-radius: 14px;
-    color: var(--alert-text);
-    font-size: 12.5px;
-    line-height: 1.55;
+    margin-top: 28px;
+    color: var(--alert);
     text-align: center;
+    font-size: clamp(14px, 2.2vw, 18px);
+    line-height: 1.5;
     font-weight: 500;
+    letter-spacing: .15px;
+    padding: 0 4px;
   }
-  @media (max-width: 480px) {
+  /* ===== Mobile ===== */
+  @media (max-width: 640px) {
     #page {
-      padding: 16px;
+      padding: 12px;
       align-items: flex-start;
-      padding-top: max(20px, env(safe-area-inset-top));
+      padding-top: max(12px, env(safe-area-inset-top));
+      padding-bottom: max(12px, env(safe-area-inset-bottom));
     }
     .card {
-      padding: 32px 20px 26px;
+      max-width: 100%;
       border-radius: 28px;
+      padding: 32px 16px 28px;
+      margin-top: 8px;
     }
     .headline {
-      font-size: 28px;
+      font-size: clamp(36px, 11vw, 52px);
+      letter-spacing: -1.8px;
+      margin-bottom: 24px;
+    }
+    .title {
+      font-size: clamp(24px, 6.5vw, 32px);
+      margin-bottom: 12px;
+    }
+    .subtitle {
+      font-size: clamp(15px, 4.2vw, 20px);
+      margin-bottom: 28px;
+    }
+    .options {
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-bottom: 24px;
     }
     .option {
+      min-height: 88px;
+      border-radius: 22px;
+      border-width: 3px;
+      gap: 16px;
       padding: 16px 18px;
+      justify-content: flex-start;
+    }
+    .radio {
+      width: 28px;
+      height: 28px;
+      flex-basis: 28px;
+      border-width: 3px;
+    }
+    .radio::after {
+      width: 12px;
+      height: 12px;
     }
     .amount {
+      font-size: clamp(22px, 6vw, 28px);
+    }
+    #continue-button {
+      min-height: 72px;
+      border-radius: 22px;
+      font-size: clamp(20px, 5.5vw, 26px);
+    }
+    .alert {
+      margin-top: 20px;
+      font-size: clamp(13px, 3.6vw, 16px);
+      line-height: 1.45;
+    }
+  }
+  /* Very small phones */
+  @media (max-width: 380px) {
+    .card {
+      padding: 26px 12px 24px;
+      border-radius: 22px;
+    }
+    .headline {
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+    .title {
+      font-size: 22px;
+    }
+    .subtitle {
+      font-size: 15px;
+      margin-bottom: 22px;
+    }
+    .option {
+      min-height: 80px;
+      padding: 14px 14px;
+      border-radius: 18px;
+    }
+    .radio {
+      width: 26px;
+      height: 26px;
+      flex-basis: 26px;
+    }
+    .radio::after {
+      width: 11px;
+      height: 11px;
+    }
+    .amount {
+      font-size: 20px;
+    }
+    #continue-button {
+      min-height: 68px;
+      border-radius: 18px;
       font-size: 19px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .option,
+    #continue-button {
+      transition: none;
     }
   }
 </style>
@@ -303,37 +358,22 @@ src="https://www.facebook.com/tr?id=948600004436271&ev=PageView&noscript=1"
 <body>
   <div id="page">
     <main class="card">
-      <div style="text-align:center">
-        <span class="badge">
-          <span class="badge-dot"></span>
-          Limited Offer
-        </span>
-      </div>
-      <div class="emoji-wrap">
-        <div class="emoji">🎉</div>
-      </div>
-      <h1 class="headline">Congratulations!</h1>
+      <h1 class="headline">Congratulations</h1>
       <h2 class="title">How much do you need?</h2>
-      <p class="subtitle">Select an amount below to continue</p>
+      <p class="subtitle">Choose below And Continue:</p>
       <div class="options" role="radiogroup" aria-label="Choose an amount">
         <label class="option-wrap">
           <input type="radio" name="amount" value="50000">
           <span class="option">
             <span class="radio" aria-hidden="true"></span>
-            <span class="amount-block">
-              <span class="amount">₦50,000</span>
-              <span class="amount-label">Quick support</span>
-            </span>
+            <span class="amount">₦50,000</span>
           </span>
         </label>
         <label class="option-wrap">
           <input type="radio" name="amount" value="100000">
           <span class="option">
             <span class="radio" aria-hidden="true"></span>
-            <span class="amount-block">
-              <span class="amount">₦100,000</span>
-              <span class="amount-label">Full support</span>
-            </span>
+            <span class="amount">₦100,000</span>
           </span>
         </label>
       </div>
@@ -341,17 +381,18 @@ src="https://www.facebook.com/tr?id=948600004436271&ev=PageView&noscript=1"
         CONTINUE
       </button>
       <p class="alert">
-        ALERT: Choose an amount, stay on the next page until you see a message asking for account number, or scroll down.
+        ALERT: Choose an amount, stay on the next page until you see a
+        message asking for account number, or scroll down.
       </p>
     </main>
   </div>
 <script>
 (function () {
   var links = [
-    "https://open.dishalulla.com/us-tax-reporting-obligations-non-residents-2026",
-    "https://open.dishalulla.com/best-ways-to-send-money-home-from-the-usa/",
-    "https://open.dishalulla.com/us-income-tax-brackets-and-rates-explained-2026/",
-    "https://open.dishalulla.com/how-to-file-us-business-taxes-as-a-non-resident-owner-in-2026-form-5472-1120-and-penalties-explained/"
+   "https://jobs.ledgerbloc.com/how-to-file-us-business-taxes-as-a-non-resident-owner-form-5472-1120",
+"https://jobs.ledgerbloc.com/how-to-verify-immigration-attorney-is-licensed",
+"https://jobs.ledgerbloc.com/uk-immigration-lawyers-london-what-to-expect",
+"https://jobs.ledgerbloc.com/how-to-get-us-employer-identification-number"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
