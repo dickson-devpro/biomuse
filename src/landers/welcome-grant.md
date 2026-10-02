@@ -383,8 +383,7 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 <script>
 (function () {
   var links = [
-"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
-"https://enter.biomuse.com.ng/germany-permanent-residency-requirements-skilled-workers"
+"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
