@@ -384,9 +384,8 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 (function () {
   var links = [
 "https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-non-resident-aliens/",
-"https://enter.biomuse.com.ng/filing-us-business-taxes-non-resident-owner/",
-"https://enter.biomuse.com.ng/form-5472-penalty-foreign-owned-llc/"
+"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026/",
+"https://enter.biomuse.com.ng/how-immigrants-can-buy-a-house-in-the-us/"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
