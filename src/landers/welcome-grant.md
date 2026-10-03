@@ -383,17 +383,7 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 <script>
 (function () {
   var links = [
-"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
-"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
-"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
-"https://enter.biomuse.com.ng/germany-permanent-residency-requirements-skilled-workers",
-"https://enter.biomuse.com.ng/germany-permanent-residency-requirements-skilled-workers",
-"https://enter.biomuse.com.ng/germany-permanent-residency-requirements-skilled-workers",
-"https://enter.biomuse.com.ng/mortgage-insurance-pmi-explained",
-"https://enter.biomuse.com.ng/first-90-days-after-relocating-practical-checklist",
-"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026",
-"https://enter.biomuse.com.ng/buy-to-let-mortgages-non-residents",
-"https://enter.biomuse.com.ng/how-immigrants-can-buy-a-house-in-the-us"
+"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
