@@ -383,28 +383,7 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 <script>
 (function () {
   var links = [
-"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026",
-"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026",
-"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026",
-"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026",
-"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
-"https://enter.biomuse.com.ng/property-insurance-first-time-buyers-explained",
-"https://enter.biomuse.com.ng/double-taxation-how-tax-treaties-work",
-"https://enter.biomuse.com.ng/mortgage-insurance-pmi-explained",
-"https://enter.biomuse.com.ng/short-term-rentals-vs-serviced-apartments-on-arrival",
-"https://enter.biomuse.com.ng/temporary-housing-london-costs-options-2026",
-"https://migration.biomuse.com.ng/50000-jobs-in-germany-with-visa-sponsorship-in-2026",
-"https://enter.biomuse.com.ng/opening-bank-account-new-arrival-us"
+"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
