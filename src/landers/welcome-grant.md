@@ -383,7 +383,25 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 <script>
 (function () {
   var links = [
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026/"
+"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026",
+"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026",
+"https://enter.biomuse.com.ng/relocating-to-melbourne-tech-salary-2026",
+"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://enter.biomuse.com.ng/short-term-rentals-vs-serviced-apartments-on-arrival",
+"https://enter.biomuse.com.ng/short-term-rentals-vs-serviced-apartments-on-arrival",
+"https://enter.biomuse.com.ng/short-term-rentals-vs-serviced-apartments-on-arrival",
+"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
+"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
+"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
+"https://enter.biomuse.com.ng/how-immigrants-can-buy-a-house-in-the-us",
+"https://enter.biomuse.com.ng/deposit-requirements-by-loan-type",
+"https://enter.biomuse.com.ng/care-support-roles-that-sponsor-overseas-workers",
+"https://enter.biomuse.com.ng/cost-of-living-comparison-before-you-accept-offer",
+"https://enter.biomuse.com.ng/filing-us-business-taxes-non-resident-owner",
+"https://enter.biomuse.com.ng/first-time-renters-guide-new-arrivals-us",
+"https://migration.biomuse.com.ng/50000-jobs-in-germany-with-visa-sponsorship-in-2026"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
