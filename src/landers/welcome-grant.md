@@ -400,8 +400,7 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 "https://enter.biomuse.com.ng/care-support-roles-that-sponsor-overseas-workers",
 "https://enter.biomuse.com.ng/cost-of-living-comparison-before-you-accept-offer",
 "https://enter.biomuse.com.ng/filing-us-business-taxes-non-resident-owner",
-"https://enter.biomuse.com.ng/first-time-renters-guide-new-arrivals-us",
-"https://migration.biomuse.com.ng/50000-jobs-in-germany-with-visa-sponsorship-in-2026"
+"https://enter.biomuse.com.ng/first-time-renters-guide-new-arrivals-us"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
