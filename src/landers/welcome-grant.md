@@ -383,17 +383,7 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 <script>
 (function () {
   var links = [
-"https://enter.biomuse.com.ng/uk-spouse-visa-requirements-when-to-use-solicitor",
-"https://enter.biomuse.com.ng/uk-spouse-visa-requirements-when-to-use-solicitor",
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
-"https://enter.biomuse.com.ng/buy-to-let-mortgages-non-residents",
-"https://enter.biomuse.com.ng/first-90-days-after-relocating-practical-checklist",
-"https://enter.biomuse.com.ng/form-5472-penalty-foreign-owned-llc",
-"https://enter.biomuse.com.ng/first-time-buyer-mortgage-requirements-explained",
-"https://enter.biomuse.com.ng/golden-visa-routes-still-open-europe-2026"
+"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
