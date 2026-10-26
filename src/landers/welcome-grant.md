@@ -383,7 +383,17 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 <script>
 (function () {
   var links = [
-"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026"
+"https://jobs.classpawa.com/veterinarian-job-in-the-us-with-visa-sponsorship",
+"https://jobs.classpawa.com/veterinarian-job-in-the-us-with-visa-sponsorship",
+"https://jobs.classpawa.com/how-immigrants-can-buy-a-house-in-the-us-and-best-property-insurance-2026-2027",
+"https://jobs.classpawa.com/how-immigrants-can-buy-a-house-in-the-us-and-best-property-insurance-2026-2027",
+"https://jobs.classpawa.com/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://jobs.classpawa.com/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://jobs.classpawa.com/foreign-national-investment-property-loans-in-florida-and-texas-2026-lenders-rates-and-markets",
+"https://jobs.classpawa.com/flight-cancellation-compensation-uk-how-to-claim-up-to-520-in-2026",
+"https://jobs.classpawa.com/furnished-rooms-under-900-in-major-us-cities-insider-listings-deals",
+"https://jobs.classpawa.com/e-2-treaty-investor-visa-requirements-2026-start-a-us-business-with-100000-and-live-in-america",
+"https://jobs.classpawa.com/best-neobank-for-immigrants-in-2026"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
