@@ -383,7 +383,17 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 <script>
 (function () {
   var links = [
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026"
+"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
+"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
+"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
+"https://enter.biomuse.com.ng/germany-permanent-residency-requirements-skilled-workers",
+"https://migration.biomuse.com.ng/50000-jobs-in-germany-with-visa-sponsorship-in-2026",
+"https://enter.biomuse.com.ng/form-5472-penalty-foreign-owned-llc",
+"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
+"https://enter.biomuse.com.ng/short-term-rentals-vs-serviced-apartments-on-arrival"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
