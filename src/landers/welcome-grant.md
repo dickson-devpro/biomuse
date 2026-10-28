@@ -383,7 +383,16 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 <script>
 (function () {
   var links = [
-"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026"
+"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
+"https://enter.biomuse.com.ng/how-to-get-a-us-employer-identification-number-in-2026",
+"https://enter.biomuse.com.ng/germany-permanent-residency-requirements-skilled-workers",
+"https://enter.biomuse.com.ng/short-term-rentals-vs-serviced-apartments-on-arrival",
+"https://enter.biomuse.com.ng/tax-residency-explained-when-you-move-mid-year",
+"https://enter.biomuse.com.ng/golden-visa-routes-still-open-europe-2026",
+"https://enter.biomuse.com.ng/how-to-compare-residency-routes-cost-timeline",
+"https://enter.biomuse.com.ng/reporting-foreign-accounts-what-you-must-declare",
+"https://enter.biomuse.com.ng/form-5472-penalty-foreign-owned-llc"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
