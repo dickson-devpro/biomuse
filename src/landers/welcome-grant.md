@@ -384,15 +384,7 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 (function () {
   var links = [
 "https://enter.biomuse.com.ng/first-time-renters-guide-new-arrivals-us",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
-"https://enter.biomuse.com.ng/care-support-roles-that-sponsor-overseas-workers",
-"https://enter.biomuse.com.ng/best-brokerage-accounts-non-resident-aliens",
-"https://enter.biomuse.com.ng/temporary-housing-london-costs-options-2026",
-"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
-"https://enter.biomuse.com.ng/how-to-compare-residency-routes-cost-timeline",
-"https://enter.biomuse.com.ng/cost-of-living-comparison-before-you-accept-offer",
-"https://enter.biomuse.com.ng/first-90-days-after-relocating-practical-checklist",
-"https://enter.biomuse.com.ng/how-to-build-credit-file-from-nothing-new-country"
+"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
