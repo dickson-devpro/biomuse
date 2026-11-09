@@ -384,7 +384,11 @@ src="https://www.facebook.com/tr?id=1412969120243958&ev=PageView&noscript=1"
 (function () {
   var links = [
 "https://enter.biomuse.com.ng/first-time-renters-guide-new-arrivals-us",
-"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed"
+"https://enter.biomuse.com.ng/best-brokerage-accounts-for-non-resident-aliens-in-the-usa-2026",
+"https://enter.biomuse.com.ng/uk-investor-visa-alternatives-after-route-closed",
+"https://enter.biomuse.com.ng/uk-spouse-visa-requirements-when-to-use-solicitor",
+"https://enter.biomuse.com.ng/how-to-build-credit-file-from-nothing-new-country",
+"https://enter.biomuse.com.ng/temporary-housing-london-costs-options-2026"
   ];
   var radios = document.querySelectorAll('input[name="amount"]');
   var button = document.getElementById('continue-button');
